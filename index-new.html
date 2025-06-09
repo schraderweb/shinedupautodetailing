@@ -54,6 +54,22 @@
     />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<style>
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+   </style>
+
+
+    
   </head>
 
   <!-- BODY -->
@@ -137,6 +153,16 @@
       <section id="Hero" class="d-none d-md-block">
         <div class="hero-wrapper hero-carousel owl-carousel">
           <div class="hero-slider slider-1 item">
+
+
+<video autoplay muted loop id="myVideo">
+  <source src="media/auto-bg.mp4" type="video/mp4">
+</video>
+
+
+
+
+            
             <div class="slider-content">
               <div class="container">
                 <div

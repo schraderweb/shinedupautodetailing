@@ -789,7 +789,7 @@ nav.navbar {
 }
 
 .slider-1 {
-  background: url(media/auto-bg.mp4);
+  background: url(/media/auto-bg.mp4);
 }
 .slider-2 {
   background: url(../img/slider2.webp);

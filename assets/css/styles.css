@@ -807,7 +807,7 @@ nav.navbar {
 }
 
 .mobile-slider1 {
-  background: url(../img/mobile-slider1.jpeg);
+  background: url(../img/int-mobile-header.jpg);
 }
 .mobile-slider2 {
   background: url(../img/mobile-slider2.webp);
@@ -1087,7 +1087,7 @@ nav.navbar {
  
   width:100%;
   height:100vh;
-  background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/custom-hero.jpg");
+  background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/int-mobile-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 

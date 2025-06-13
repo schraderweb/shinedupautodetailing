@@ -671,7 +671,7 @@ nav.navbar {
   top: 0;
   width: 100%;
   background: #102353;
-  padding: 20px 0;
+  padding: 1px 0;
   z-index: 999;
 }
 
@@ -681,7 +681,7 @@ nav.navbar {
 
 .nav-link {
   font-family: Poppins, sans-serif;
-  font-size: 18px !important;
+  font-size: 19px !important;
   font-weight: 500;
   text-transform: capitalize;
   color: #ffffff !important;

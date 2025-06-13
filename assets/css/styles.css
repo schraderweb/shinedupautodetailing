@@ -1326,7 +1326,7 @@ nav.navbar {
 
 /* Start Contact Us */
 ul {
-  list-style: circle;
+  list-style: disc;
 }
 
 input {

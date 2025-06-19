@@ -457,7 +457,7 @@ button.nav-btns > a {
   flex-direction: column;
 }
 .footer-logo {
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto;
 }
 @media (min-width: 1200px) {
@@ -676,7 +676,7 @@ nav.navbar {
 }
 
 .logo img {
-  width: 80%;
+  width: 70%;
 }
 
 .nav-link {

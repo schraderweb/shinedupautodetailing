@@ -759,10 +759,12 @@
 
     .prev-btn {
       left: -8px;
+      display: none;
     }
 
     .next-btn {
       right: -8px;
+      display: none;
     }
 
     .review-modal-box {

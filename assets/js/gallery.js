@@ -28,7 +28,7 @@ lightbox.addEventListener("click", (e) => {
       { job: 2, total: 8 },
       { job: 3, total: 9 },
       { job: 4, total: 20 },
-      { job: 5, total: 68 },
+    //   { job: 5, total: 68 },
     ];
 
     const basePath = "./assets/img/autojob/ShinedUpAuto";
@@ -71,7 +71,7 @@ lightbox.addEventListener("click", (e) => {
         html += `
           <section class="gallery-section">
             <div class="g-container">
-              <h2 class="gallery-title">Auto Detailing Job ${gallery.job}</h2>
+              <h2 class="gallery-title"></h2>
               <div class="gallery-grid">
                 ${imagesHTML}
               </div>

@@ -97,7 +97,7 @@
         <div class="container">
           <a href="index.html">
             
-            <img src="assets/img/logo.png" style="width:280px;" alt="logo"/></a>
+            <img src="assets/img/logo.png" style="width:220px;" alt="logo"/></a>
           
           
           <button
@@ -141,11 +141,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery </a>
               </li>
-               <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="book-now.html">Book Now</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonials.html">Testimonials</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="faq.html">FAQ</a>
@@ -392,71 +395,45 @@ From express exterior washes to full interior and exterior restoration, we handl
 
        <!-- Testimonial Section HTML Start -->
 
-      <section id="Testimonial">
-        <div class="testimonial-wrapper">
-          <div class="container">
-            <div class="testimonial-content">
-              <h2>Testimonials</h2>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme">
-              <div class="testimonial-slide item">
-                <img
-                  src="assets/img/male-avatar.jpg"
-                  alt="testimonial-img"
-                />
-                <div class="review pt-4">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </div>
-                <p>
-                  <i class="fa-solid fa-quote-left"></i>
-                  Ryan did an amazing job, the interior of our car looked like a brand new car, we couldn't be more pleased. Would highly recommend him.
-                </p>
-                <h5>Susan Davenport</h5>
-              </div>
-              <div class="testimonial-slide item">
-                <img
-                  src="assets/img/male-avatar.jpg"
-                  alt="testimonial-img"
-                />
-                <div class="review pt-4">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </div>
-                <p>
-                  <i class="fa-solid fa-quote-left"></i>
-                 Ryan did an amazing job, the interior of our car looked like a brand new car, we couldn't be more pleased. Would highly recommend him.
-                </p>
-                <h5>Harry Siegel</h5>
-              </div>
-              <div class="testimonial-slide item">
-                <img
-                  src="assets/img/female-avatar.jpeg"
-                  alt="testimonial-img"
-                />
-                <div class="review pt-4">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </div>
-                <p>
-                  <i class="fa-solid fa-quote-left"></i>
-                 Ryan did an amazing job!  Car looks awesome.
-                </p>
-                <h5>Ruth H.</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     <section class="reviews-section">
+  <div class="reviews-header">
+    <h2>Our Recent Reviews</h2>
+    <p>What our Shinedup customers are saying</p>
+  </div>
+
+  <div class="reviews-wrapper">
+    <button class="slider-btn prev-btn" id="prevBtn">&#8249;</button>
+    <div class="reviews-grid" id="reviewsGrid"></div>
+    <button class="slider-btn next-btn" id="nextBtn">&#8250;</button>
+  </div>
+
+  <div class="slider-dots" id="sliderDots"></div>
+</section>
+
+<div class="review-modal" id="reviewModal">
+  <div class="review-modal-box">
+    <button class="review-modal-close" id="modalClose">&times;</button>
+
+    <div class="modal-user-row">
+      <div class="avatar" id="modalAvatar"></div>
+      <div>
+        <h4 id="modalName"></h4>
+        <span id="modalTime"></span>
+      </div>
+      <img
+        class="google-logo modal-google-logo"
+        width="48"
+        height="48"
+        src="https://img.icons8.com/color/48/google-logo.png"
+        alt="google-logo"
+      />
+    </div>
+
+    <div class="stars">★★★★★</div>
+    <p class="modal-review-text" id="modalText"></p>
+  </div>
+</div>
+
 
       <!-- Testimonial Section HTML End -->
 
@@ -725,6 +702,7 @@ From express exterior washes to full interior and exterior restoration, we handl
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/testimonials.js"></script>
 
     <script>
       // Hero Slider
